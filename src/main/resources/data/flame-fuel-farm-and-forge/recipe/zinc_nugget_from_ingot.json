@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "flame-fuel-farm-and-forge:zinc_ingot"
+  ],
+  "result": {
+    "id": "flame-fuel-farm-and-forge:zinc_nugget",
+    "count": 9
+  }
+}

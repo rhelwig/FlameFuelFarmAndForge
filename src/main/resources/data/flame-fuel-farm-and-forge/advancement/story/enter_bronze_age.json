@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:story/upgrade_tools",
+  "criteria": {
+    "has_bronze_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "flame-fuel-farm-and-forge:bronze_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bronze_block"
+    ]
+  ],
+  "display": {
+    "icon": {
+      "id": "flame-fuel-farm-and-forge:bronze_block"
+    },
+    "title": {
+      "translate": "advancement.flame-fuel-farm-and-forge.enter_bronze_age.title"
+    },
+    "description": {
+      "translate": "advancement.flame-fuel-farm-and-forge.enter_bronze_age.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "rewards": {
+    "recipes": [
+      "flame-fuel-farm-and-forge:bronze_ingots_from_block",
+      "flame-fuel-farm-and-forge:bronze_nuggets_from_ingot",
+      "flame-fuel-farm-and-forge:bronze_pickaxe",
+      "flame-fuel-farm-and-forge:bronze_axe",
+      "flame-fuel-farm-and-forge:bronze_hoe",
+      "flame-fuel-farm-and-forge:bronze_shovel",
+      "flame-fuel-farm-and-forge:bronze_sword",
+      "flame-fuel-farm-and-forge:bronze_helmet",
+      "flame-fuel-farm-and-forge:bronze_chestplate",
+      "flame-fuel-farm-and-forge:bronze_leggings",
+      "flame-fuel-farm-and-forge:bronze_boots",
+      "flame-fuel-farm-and-forge:bronze_hopper"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "flame-fuel-farm-and-forge:tin_ore",
+    "flame-fuel-farm-and-forge:zinc_ore",
+    "flame-fuel-farm-and-forge:tin_block",
+    "flame-fuel-farm-and-forge:zinc_block",
+    "flame-fuel-farm-and-forge:bronze_block",
+    "flame-fuel-farm-and-forge:brass_block",
+    "flame-fuel-farm-and-forge:bronze_hopper",
+    "flame-fuel-farm-and-forge:bronze_chain",
+    "flame-fuel-farm-and-forge:bronze_lantern",
+    "flame-fuel-farm-and-forge:copper_kettle"
+  ]
+}

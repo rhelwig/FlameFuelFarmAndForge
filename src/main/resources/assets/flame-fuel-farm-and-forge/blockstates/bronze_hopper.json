@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "enabled=false,facing=down": { "model": "flame-fuel-farm-and-forge:block/bronze_hopper_down" },
+    "enabled=false,facing=east": { "model": "flame-fuel-farm-and-forge:block/bronze_hopper_side", "y": 90 },
+    "enabled=false,facing=north": { "model": "flame-fuel-farm-and-forge:block/bronze_hopper_side" },
+    "enabled=false,facing=south": { "model": "flame-fuel-farm-and-forge:block/bronze_hopper_side", "y": 180 },
+    "enabled=false,facing=west": { "model": "flame-fuel-farm-and-forge:block/bronze_hopper_side", "y": 270 },
+    "enabled=true,facing=down": { "model": "flame-fuel-farm-and-forge:block/bronze_hopper_down" },
+    "enabled=true,facing=east": { "model": "flame-fuel-farm-and-forge:block/bronze_hopper_side", "y": 90 },
+    "enabled=true,facing=north": { "model": "flame-fuel-farm-and-forge:block/bronze_hopper_side" },
+    "enabled=true,facing=south": { "model": "flame-fuel-farm-and-forge:block/bronze_hopper_side", "y": 180 },
+    "enabled=true,facing=west": { "model": "flame-fuel-farm-and-forge:block/bronze_hopper_side", "y": 270 }
+  }
+}

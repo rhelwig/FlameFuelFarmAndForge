@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=x": { "model": "flame-fuel-farm-and-forge:block/bronze_chain", "x": 90, "y": 90 },
+    "axis=y": { "model": "flame-fuel-farm-and-forge:block/bronze_chain" },
+    "axis=z": { "model": "flame-fuel-farm-and-forge:block/bronze_chain", "x": 90 }
+  }
+}

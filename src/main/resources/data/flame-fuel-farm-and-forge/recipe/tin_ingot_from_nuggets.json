@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": "flame-fuel-farm-and-forge:tin_nugget"
+  },
+  "result": {
+    "count": 1,
+    "id": "flame-fuel-farm-and-forge:tin_ingot"
+  }
+}

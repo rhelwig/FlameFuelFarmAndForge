@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "flame-fuel-farm-and-forge:bronze"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "flame-fuel-farm-and-forge:bronze"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "flame-fuel-farm-and-forge:bronze"
+      }
+    ]
+  }
+}

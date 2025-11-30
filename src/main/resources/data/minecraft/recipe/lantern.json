@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "IPI",
+    "III"
+  ],
+  "key": {
+    "I": "minecraft:iron_nugget",
+    "P": "minecraft:glass_pane"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:lantern"
+  }
+}

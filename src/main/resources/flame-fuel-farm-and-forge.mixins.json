@@ -1,0 +1,24 @@
+{
+	"required": true,
+	"package": "com.ronhelwig.ffff.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BlockEntityTypeAccessor",
+		"BlockEntityTypeMixin",
+		"BlockStateBaseMixin",
+		"BlockBehaviourPropertiesAccessor",
+		"BlockDropsMixin",
+		"ExampleMixin",
+		"HopperBlockEntityAccessor",
+		"HopperBlockEntityMixin",
+		"LanternBlockMixin",
+		"TorchBlockMixin",
+		"ComposterBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

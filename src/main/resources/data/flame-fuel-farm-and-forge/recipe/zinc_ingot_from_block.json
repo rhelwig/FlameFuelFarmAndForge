@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "flame-fuel-farm-and-forge:zinc_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "flame-fuel-farm-and-forge:zinc_ingot"
+  }
+}

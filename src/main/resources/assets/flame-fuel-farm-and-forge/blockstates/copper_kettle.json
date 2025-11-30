@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "content=empty,level=0": { "model": "flame-fuel-farm-and-forge:block/copper_kettle_level0" },
+    "content=water,level=0": { "model": "flame-fuel-farm-and-forge:block/copper_kettle_level0" },
+    "content=animal_fat,level=0": { "model": "flame-fuel-farm-and-forge:block/copper_kettle_level0" },
+    "content=oil,level=0": { "model": "flame-fuel-farm-and-forge:block/copper_kettle_level0" },
+    "content=empty,level=1": { "model": "flame-fuel-farm-and-forge:block/copper_kettle_level1" },
+    "content=water,level=1": { "model": "flame-fuel-farm-and-forge:block/copper_kettle_level1" },
+    "content=animal_fat,level=1": { "model": "flame-fuel-farm-and-forge:block/copper_kettle_level1" },
+    "content=oil,level=1": { "model": "flame-fuel-farm-and-forge:block/copper_kettle_level1" },
+    "content=empty,level=2": { "model": "flame-fuel-farm-and-forge:block/copper_kettle_level2" },
+    "content=water,level=2": { "model": "flame-fuel-farm-and-forge:block/copper_kettle_level2" },
+    "content=animal_fat,level=2": { "model": "flame-fuel-farm-and-forge:block/copper_kettle_level2" },
+    "content=oil,level=2": { "model": "flame-fuel-farm-and-forge:block/copper_kettle_level2" }
+  }
+}

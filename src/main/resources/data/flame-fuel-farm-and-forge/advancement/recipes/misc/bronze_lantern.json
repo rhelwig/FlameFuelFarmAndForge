@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bronze_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "flame-fuel-farm-and-forge:bronze_ingot"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "flame-fuel-farm-and-forge:bronze_lantern"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bronze_ingot",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "flame-fuel-farm-and-forge:bronze_lantern"
+    ]
+  }
+}

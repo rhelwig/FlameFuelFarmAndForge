@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "flame-fuel-farm-and-forge:item/bronze_ingot"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "has_copper_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:copper_ingot"]
+          }
+        ]
+      }
+    },
+    "has_tin_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["flame-fuel-farm-and-forge:tin_ingot"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_copper_ingot",
+      "has_tin_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "flame-fuel-farm-and-forge:bronze_block_from_alloy"
+    ]
+  }
+}

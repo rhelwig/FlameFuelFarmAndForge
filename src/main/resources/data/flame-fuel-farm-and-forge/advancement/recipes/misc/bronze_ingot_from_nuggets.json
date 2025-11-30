@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bronze_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "flame-fuel-farm-and-forge:bronze_nugget"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "flame-fuel-farm-and-forge:bronze_ingot_from_nuggets"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_bronze_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "flame-fuel-farm-and-forge:bronze_ingot_from_nuggets"
+    ]
+  }
+}

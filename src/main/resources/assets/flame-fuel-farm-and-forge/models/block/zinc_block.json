@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "flame-fuel-farm-and-forge:block/zinc_block"
+  }
+}

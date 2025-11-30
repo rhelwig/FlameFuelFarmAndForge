@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "B",
+    "I",
+    "B"
+  ],
+  "key": {
+    "B": "flame-fuel-farm-and-forge:bronze_nugget",
+    "I": "flame-fuel-farm-and-forge:bronze_ingot"
+  },
+  "result": {
+    "id": "flame-fuel-farm-and-forge:bronze_chain"
+  }
+}

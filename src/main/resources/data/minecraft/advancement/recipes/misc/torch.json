@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stick"
+          }
+        ]
+      }
+    },
+    "has_fuel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal",
+              "minecraft:charcoal",
+              "flame-fuel-farm-and-forge:animal_fat"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:torch"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_stick",
+      "has_fuel",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:torch"
+    ]
+  }
+}

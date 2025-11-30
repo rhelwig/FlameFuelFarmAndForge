@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ISI",
+    "IPI",
+    "ISI"
+  ],
+  "key": {
+    "I": "minecraft:iron_nugget",
+    "P": "minecraft:glass_pane",
+    "S": "#minecraft:soul_fire_base_blocks"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:soul_lantern"
+  }
+}

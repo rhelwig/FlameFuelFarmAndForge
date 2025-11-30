@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "has_copper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:copper_ingot"
+            ]
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "flame-fuel-farm-and-forge:copper_kettle"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_copper",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "flame-fuel-farm-and-forge:copper_kettle"
+    ]
+  }
+}

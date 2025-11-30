@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:stick",
+    "X": [
+      "minecraft:coal",
+      "minecraft:charcoal",
+      "flame-fuel-farm-and-forge:animal_fat"
+    ]
+  },
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:torch"
+  }
+}

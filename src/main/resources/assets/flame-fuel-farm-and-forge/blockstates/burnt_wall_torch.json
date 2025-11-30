@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "flame-fuel-farm-and-forge:block/burnt_wall_torch", "y": 270 },
+    "facing=south": { "model": "flame-fuel-farm-and-forge:block/burnt_wall_torch", "y": 90 },
+    "facing=west": { "model": "flame-fuel-farm-and-forge:block/burnt_wall_torch", "y": 180 },
+    "facing=east": { "model": "flame-fuel-farm-and-forge:block/burnt_wall_torch" }
+  }
+}

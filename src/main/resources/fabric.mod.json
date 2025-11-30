@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "flame-fuel-farm-and-forge",
+	"version": "${version}",
+	"name": "Flame, Fuel, Farm, and Forge",
+	"description": "This mod increases historical accuracy, enhancing the play style of building an interesting world.",
+	"authors": [
+		"Ron Helwig"
+	],
+	"contact": {
+		"homepage": "https://ronhelwig.com/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/flame-fuel-farm-and-forge/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ronhelwig.ffff.FlameFuelFarmAndForge"
+		],
+		"client": [
+			"com.ronhelwig.ffff.FlameFuelFarmAndForgeClient"
+		]
+	},
+	"mixins": [
+		"flame-fuel-farm-and-forge.mixins.json",
+		{
+			"config": "flame-fuel-farm-and-forge.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

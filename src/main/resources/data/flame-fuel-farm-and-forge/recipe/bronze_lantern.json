@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BTB",
+    "BPB",
+    "BTB"
+  ],
+  "key": {
+    "B": "flame-fuel-farm-and-forge:bronze_nugget",
+    "P": "minecraft:glass_pane",
+    "T": "flame-fuel-farm-and-forge:tin_nugget"
+  },
+  "result": {
+    "id": "flame-fuel-farm-and-forge:bronze_lantern"
+  }
+}

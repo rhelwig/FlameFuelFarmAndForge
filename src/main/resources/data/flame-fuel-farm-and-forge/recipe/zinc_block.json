@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": "flame-fuel-farm-and-forge:zinc_ingot"
+  },
+  "result": {
+    "count": 1,
+    "id": "flame-fuel-farm-and-forge:zinc_block"
+  }
+}

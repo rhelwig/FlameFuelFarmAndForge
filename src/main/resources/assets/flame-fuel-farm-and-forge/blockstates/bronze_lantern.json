@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "hanging=false,waterlogged=false,lit=false": { "model": "flame-fuel-farm-and-forge:block/bronze_lantern" },
+    "hanging=false,waterlogged=false,lit=true": { "model": "flame-fuel-farm-and-forge:block/bronze_lantern" },
+    "hanging=false,waterlogged=true,lit=false": { "model": "flame-fuel-farm-and-forge:block/bronze_lantern" },
+    "hanging=false,waterlogged=true,lit=true": { "model": "flame-fuel-farm-and-forge:block/bronze_lantern" },
+    "hanging=true,waterlogged=false,lit=false": { "model": "flame-fuel-farm-and-forge:block/bronze_lantern_hanging" },
+    "hanging=true,waterlogged=false,lit=true": { "model": "flame-fuel-farm-and-forge:block/bronze_lantern_hanging" },
+    "hanging=true,waterlogged=true,lit=false": { "model": "flame-fuel-farm-and-forge:block/bronze_lantern_hanging" },
+    "hanging=true,waterlogged=true,lit=true": { "model": "flame-fuel-farm-and-forge:block/bronze_lantern_hanging" }
+  }
+}

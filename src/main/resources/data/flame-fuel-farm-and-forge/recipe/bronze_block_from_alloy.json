@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CCC",
+    "CTC",
+    "CCC"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "T": "flame-fuel-farm-and-forge:tin_ingot"
+  },
+  "result": {
+    "id": "flame-fuel-farm-and-forge:bronze_block"
+  }
+}

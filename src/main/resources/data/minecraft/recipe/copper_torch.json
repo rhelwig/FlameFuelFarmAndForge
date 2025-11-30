@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:stick",
+    "C": "minecraft:copper_nugget",
+    "X": [
+      "minecraft:coal",
+      "minecraft:charcoal",
+      "flame-fuel-farm-and-forge:animal_fat"
+    ]
+  },
+  "pattern": [
+    "C",
+    "X",
+    "#"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:copper_torch"
+  }
+}

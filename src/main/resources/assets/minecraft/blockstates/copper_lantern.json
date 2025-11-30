@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "hanging=false,waterlogged=false,lit=false": { "model": "minecraft:block/copper_lantern" },
+    "hanging=false,waterlogged=false,lit=true": { "model": "minecraft:block/copper_lantern" },
+    "hanging=false,waterlogged=true,lit=false": { "model": "minecraft:block/copper_lantern" },
+    "hanging=false,waterlogged=true,lit=true": { "model": "minecraft:block/copper_lantern" },
+    "hanging=true,waterlogged=false,lit=false": { "model": "minecraft:block/copper_lantern_hanging" },
+    "hanging=true,waterlogged=false,lit=true": { "model": "minecraft:block/copper_lantern_hanging" },
+    "hanging=true,waterlogged=true,lit=false": { "model": "minecraft:block/copper_lantern_hanging" },
+    "hanging=true,waterlogged=true,lit=true": { "model": "minecraft:block/copper_lantern_hanging" }
+  }
+}

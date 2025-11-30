@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/hopper_side",
+  "textures": {
+    "top": "flame-fuel-farm-and-forge:block/bronze_hopper_top",
+    "side": "flame-fuel-farm-and-forge:block/bronze_hopper_outside",
+    "inside": "flame-fuel-farm-and-forge:block/bronze_hopper_inside"
+  }
+}

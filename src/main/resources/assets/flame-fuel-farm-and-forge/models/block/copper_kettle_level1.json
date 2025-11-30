@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/template_cauldron_level1",
+  "textures": {
+    "particle": "flame-fuel-farm-and-forge:block/copper_kettle_side",
+    "top": "flame-fuel-farm-and-forge:block/copper_kettle_top",
+    "bottom": "flame-fuel-farm-and-forge:block/copper_kettle_bottom",
+    "side": "flame-fuel-farm-and-forge:block/copper_kettle_side",
+    "inside": "flame-fuel-farm-and-forge:block/copper_kettle_inner",
+    "content": "minecraft:block/water_still"
+  }
+}
