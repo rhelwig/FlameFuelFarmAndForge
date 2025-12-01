@@ -1,5 +1,7 @@
 # About this Minecraft Mod
 
+[This doc is exploring the possibilities.]
+
 This mod expands Minecraft into a richer **Copper–Bronze–Brass age** progression with realistic materials, burning torches, new fuels, early industrial machines, and a full fluid & hydraulic power system.
 
 ## Torches burn out

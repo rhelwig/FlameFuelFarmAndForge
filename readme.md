@@ -1,5 +1,11 @@
 # About this Minecraft Mod
 
+I started working on this mod for a class where I was teaching some tweens how to code mods using Java. I wanted to make Minecraft a little more realistic and historical, so I started working on adding Bronze. One of the students made his mod have torches burn, so I added that and it snowballed from there.
+
+This mod is for those who like to build and who like a bit more of a challenge. Torches and lanterns need upkeep, and you need to find both tin and copper for your early tools and armor.
+
+Because this was intended for teaching use, some of the documentation is aimed towards beginner modders.
+
 ## Torches burn out
 
 Both regular and copper torches will burn out. Regular torches last about a day, copper torches last three days.
