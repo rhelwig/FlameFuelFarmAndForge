@@ -91,7 +91,7 @@ public class TimedTorchBlockEntity extends BlockEntity {
 
 		BlockState burntState = blockEntity.buildBurntState(state);
 		int flags = Block.UPDATE_ALL | Block.UPDATE_INVISIBLE;
-		if (state.is(Blocks.WALL_TORCH) || state.is(VanillaReferences.COPPER_WALL_TORCH_BLOCK)) {
+		if (state.getBlock() instanceof WallTorchBlock) {
 			flags |= Block.UPDATE_NEIGHBORS;
 		}
 
@@ -110,10 +110,10 @@ public class TimedTorchBlockEntity extends BlockEntity {
 	}
 
 	private BlockState buildBurntState(BlockState currentState) {
-		if (currentState.is(Blocks.WALL_TORCH)) {
-			BlockState defaultState = ModBlocks.BURNT_WALL_TORCH.defaultBlockState();
-			defaultState = defaultState.setValue(WallTorchBlock.FACING, currentState.getValue(WallTorchBlock.FACING));
-			if (defaultState.hasProperty(BlockStateProperties.WATERLOGGED)) {
+		if (currentState.getBlock() instanceof WallTorchBlock) {
+			BlockState defaultState = ModBlocks.BURNT_WALL_TORCH.defaultBlockState()
+				.setValue(WallTorchBlock.FACING, currentState.getValue(WallTorchBlock.FACING));
+			if (defaultState.hasProperty(BlockStateProperties.WATERLOGGED) && currentState.hasProperty(BlockStateProperties.WATERLOGGED)) {
 				defaultState = defaultState.setValue(BlockStateProperties.WATERLOGGED, currentState.getValue(BlockStateProperties.WATERLOGGED));
 			}
 			return defaultState;
