@@ -3,12 +3,12 @@
   "category": "building",
   "pattern": [
     "CCC",
-    "CNC",
+    "CZC",
     "CCC"
   ],
   "key": {
     "C": "minecraft:copper_ingot",
-    "N": "flame-fuel-farm-and-forge:zinc_nugget"
+    "Z": "flame-fuel-farm-and-forge:zinc_ingot"
   },
   "result": {
     "id": "flame-fuel-farm-and-forge:brass_block"
