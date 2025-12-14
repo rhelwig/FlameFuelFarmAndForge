@@ -8,6 +8,7 @@
 		"BlockStateBaseMixin",
 		"BlockBehaviourPropertiesAccessor",
 		"BlockDropsMixin",
+		"AbstractFurnaceBlockEntityMixin",
 		"ExampleMixin",
 		"HopperBlockEntityAccessor",
 		"HopperBlockEntityMixin",

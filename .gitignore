@@ -45,3 +45,8 @@ replay_*.log
 # generated libraries
 
 /META-INF/
+
+# local branding assets (keep untracked)
+banner.png
+logo_large.jpg
+logo_large.png
